@@ -1,0 +1,7 @@
+Environment=GPU_FORCE_64BIT_PTR=0
+Environment=GPU_MAX_HEAP_SIZE=100
+Environment=GPU_USE_SYNC_OBJECTS=1
+Environment=GPU_MAX_ALLOC_PERCENT=100
+Environment=GPU_SINGLE_ALLOC_PERCENT=100
+
+ethminer -U -RH -HWMON 1 --farm-recheck 2000 -P stratum+ssl://0x918e380c2c83978d6c0aae3b414a8f13ae75fe3e.manishrig3@eu1.ethermine.org:5555
